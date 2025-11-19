@@ -30679,16 +30679,60 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T05:42:11.616315",
+      "type": "stt",
+      "data": {
+        "text": "technology i'm looking for",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:42:37.936636",
+      "type": "stt",
+      "data": {
+        "text": "who made it to",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:44:17.282799",
+      "type": "stt",
+      "data": {
+        "text": "is a destroyer scooter",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:44:58.889662",
+      "type": "stt",
+      "data": {
+        "text": "this is pacific northwest glow it's one of my favorites",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2337,
+    "stt_events": 2341,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 78642,
+    "total_chars_heard": 78759,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T05:24:52.359470"
+  "last_updated": "2025-11-19T05:44:58.889677"
 }
