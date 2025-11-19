@@ -33867,16 +33867,49 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T10:29:57.625390",
+      "type": "stt",
+      "data": {
+        "text": "i need to figure out what moisturizer to use but anyways all these little bumpy",
+        "chars": 79,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:30:56.565787",
+      "type": "stt",
+      "data": {
+        "text": "coconut oil",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:33:59.878483",
+      "type": "stt",
+      "data": {
+        "text": "don't tell me tell josh",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2611,
+    "stt_events": 2614,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 86976,
+    "total_chars_heard": 87089,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T10:28:53.297389"
+  "last_updated": "2025-11-19T10:33:59.878494"
 }
