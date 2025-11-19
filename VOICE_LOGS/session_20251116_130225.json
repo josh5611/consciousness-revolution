@@ -32241,16 +32241,38 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T08:27:18.247348",
+      "type": "stt",
+      "data": {
+        "text": "here's to the east side where the wild ones drive",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T08:27:57.079843",
+      "type": "stt",
+      "data": {
+        "text": "dude josh",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2479,
+    "stt_events": 2481,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 83059,
+    "total_chars_heard": 83117,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T07:54:29.685136"
+  "last_updated": "2025-11-19T08:27:57.079875"
 }
