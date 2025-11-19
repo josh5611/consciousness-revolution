@@ -33790,16 +33790,60 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T10:15:50.814493",
+      "type": "stt",
+      "data": {
+        "text": "okay i invited you to a",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:16:12.352255",
+      "type": "stt",
+      "data": {
+        "text": "we need to establish communications today one",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:16:19.387046",
+      "type": "stt",
+      "data": {
+        "text": "what do we use whatsapp slack",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:17:09.418922",
+      "type": "stt",
+      "data": {
+        "text": "you need to be able to do video calls",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2604,
+    "stt_events": 2608,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 86785,
+    "total_chars_heard": 86919,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T10:13:59.204273"
+  "last_updated": "2025-11-19T10:17:09.418937"
 }
