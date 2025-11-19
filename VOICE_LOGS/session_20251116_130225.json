@@ -30723,16 +30723,148 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T05:48:56.423188",
+      "type": "stt",
+      "data": {
+        "text": "we're up to some really",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:49:39.017099",
+      "type": "stt",
+      "data": {
+        "text": "close the computer and put it away and like technology is going to be out here",
+        "chars": 78,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:49:43.360970",
+      "type": "stt",
+      "data": {
+        "text": "and so i'm i'm working on",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:49:50.875701",
+      "type": "stt",
+      "data": {
+        "text": "i'm creating a movement",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:49:55.893702",
+      "type": "stt",
+      "data": {
+        "text": "movement is to unify the build",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:50:06.560878",
+      "type": "stt",
+      "data": {
+        "text": "we're going to have all different levels but right now to start out",
+        "chars": 67,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:50:14.777707",
+      "type": "stt",
+      "data": {
+        "text": "the smartest person everywhere they go that are hiding from society",
+        "chars": 67,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:50:29.660952",
+      "type": "stt",
+      "data": {
+        "text": "i need people that are ready to go fly around",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:50:54.617623",
+      "type": "stt",
+      "data": {
+        "text": "play top villains is the thing",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:51:07.176336",
+      "type": "stt",
+      "data": {
+        "text": "maint",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:51:27.916771",
+      "type": "stt",
+      "data": {
+        "text": "people that know what these are",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:51:44.433004",
+      "type": "stt",
+      "data": {
+        "text": "so this is",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2341,
+    "stt_events": 2353,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 78759,
+    "total_chars_heard": 79193,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T05:44:58.889677"
+  "last_updated": "2025-11-19T05:51:44.433017"
 }
