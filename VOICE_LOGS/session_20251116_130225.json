@@ -31647,16 +31647,126 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T06:17:23.229917",
+      "type": "stt",
+      "data": {
+        "text": "the destroyers will never meet in person",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:18:24.908528",
+      "type": "stt",
+      "data": {
+        "text": "are you guys don't quite",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:18:30.127939",
+      "type": "stt",
+      "data": {
+        "text": "we're right in the middle of",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:18:35.494491",
+      "type": "stt",
+      "data": {
+        "text": "7 dumaine",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:18:43.115694",
+      "type": "stt",
+      "data": {
+        "text": "digital world we're going to go around",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:19:22.392446",
+      "type": "stt",
+      "data": {
+        "text": "a moment of singularity were all",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:19:47.324235",
+      "type": "stt",
+      "data": {
+        "text": "you can understand the words",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:19:58.048320",
+      "type": "stt",
+      "data": {
+        "text": "do you think i'm onto something good and you guys don't have to fucking understand what i'm",
+        "chars": 91,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:21:37.601421",
+      "type": "stt",
+      "data": {
+        "text": "yeah i need to know all that what's cool is we're all",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:22:10.729852",
+      "type": "stt",
+      "data": {
+        "text": "i don't know what else to say this is where everybody's going to come together",
+        "chars": 78,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2425,
+    "stt_events": 2435,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 81301,
+    "total_chars_heard": 81722,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T06:17:06.830259"
+  "last_updated": "2025-11-19T06:22:10.729866"
 }
