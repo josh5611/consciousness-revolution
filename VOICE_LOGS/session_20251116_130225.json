@@ -33834,16 +33834,27 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T10:22:06.471016",
+      "type": "stt",
+      "data": {
+        "text": "great",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2608,
+    "stt_events": 2609,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 86919,
+    "total_chars_heard": 86924,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T10:17:09.418937"
+  "last_updated": "2025-11-19T10:22:06.471034"
 }
