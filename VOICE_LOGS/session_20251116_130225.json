@@ -29347,16 +29347,38 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-18T21:02:14.626120",
+      "type": "stt",
+      "data": {
+        "text": "i'm going to dig through my bag on",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-18T21:02:35.490132",
+      "type": "stt",
+      "data": {
+        "text": "why do i look like a permanent home",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2238,
+    "stt_events": 2240,
     "commands_processed": 37,
     "errors": 370,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 75208,
+    "total_chars_heard": 75277,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-18T21:01:02.665345"
+  "last_updated": "2025-11-18T21:02:35.490143"
 }
