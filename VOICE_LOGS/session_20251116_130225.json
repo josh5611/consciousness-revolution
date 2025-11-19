@@ -32197,16 +32197,27 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T07:45:43.647652",
+      "type": "stt",
+      "data": {
+        "text": "i",
+        "chars": 1,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2475,
+    "stt_events": 2476,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 82980,
+    "total_chars_heard": 82981,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T07:37:19.238464"
+  "last_updated": "2025-11-19T07:45:43.647666"
 }
