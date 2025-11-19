@@ -30987,16 +30987,236 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T05:57:19.508451",
+      "type": "stt",
+      "data": {
+        "text": "infinity fashion waking each other up and working and then we get",
+        "chars": 65,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:57:34.890304",
+      "type": "stt",
+      "data": {
+        "text": "reporting the one before you go to another and we have the computer going off of it and it doesn't matter",
+        "chars": 105,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:57:39.904288",
+      "type": "stt",
+      "data": {
+        "text": "wiring diagram",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:57:51.732631",
+      "type": "stt",
+      "data": {
+        "text": "out out here and the pattern recognition engine collects",
+        "chars": 56,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:58:08.990244",
+      "type": "stt",
+      "data": {
+        "text": "low",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:58:20.648605",
+      "type": "stt",
+      "data": {
+        "text": "like",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:58:29.086022",
+      "type": "stt",
+      "data": {
+        "text": "it's just going to be",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:59:22.643028",
+      "type": "stt",
+      "data": {
+        "text": "a lot of these destroyers when they discovered that",
+        "chars": 51,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:59:37.003887",
+      "type": "stt",
+      "data": {
+        "text": "if it's a text that you're",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:59:42.804476",
+      "type": "stt",
+      "data": {
+        "text": "and the destroyers",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T05:59:55.923113",
+      "type": "stt",
+      "data": {
+        "text": "you were going to start talking to them like an adult",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:00:06.868553",
+      "type": "stt",
+      "data": {
+        "text": "tools we're going to go work",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:00:22.709339",
+      "type": "stt",
+      "data": {
+        "text": "first year",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:01.664611",
+      "type": "stt",
+      "data": {
+        "text": "positive",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:25.300278",
+      "type": "stt",
+      "data": {
+        "text": "i'm going to hold together all of the protocols",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:39.914646",
+      "type": "stt",
+      "data": {
+        "text": "can you watch everybody should",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:44.577133",
+      "type": "stt",
+      "data": {
+        "text": "can everybody walk",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:49.997492",
+      "type": "stt",
+      "data": {
+        "text": "anybody walk 200 ft everyday is that reasonable",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:01:57.621435",
+      "type": "stt",
+      "data": {
+        "text": "xp points for",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T06:02:00.339915",
+      "type": "stt",
+      "data": {
+        "text": "can you take off",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 105,
-    "stt_events": 2365,
+    "stt_events": 2385,
     "commands_processed": 37,
     "errors": 397,
     "total_chars_spoken": 7004,
-    "total_chars_heard": 79516,
+    "total_chars_heard": 80149,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T05:56:17.396689"
+  "last_updated": "2025-11-19T06:02:00.339929"
 }
