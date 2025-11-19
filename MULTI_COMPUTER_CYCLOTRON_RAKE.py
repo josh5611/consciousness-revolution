@@ -64,47 +64,62 @@ class FederatedCyclotronRake:
         print(f"✅ Federation structure ready at: {self.federation}")
 
     def rake_local_knowledge(self):
-        """Rake all knowledge from this computer"""
+        """Rake ALL knowledge from this computer"""
 
-        print("🔍 Raking local knowledge...")
+        print("🔍 Raking ALL local knowledge...")
         print()
 
         atoms = []
         sources_checked = 0
 
+        # File types to rake
+        extensions = ['*.py', '*.md', '*.txt', '*.json', '*.html', '*.js', '*.bat']
+
         # Source 1: Brain files
         brain_dir = self.consciousness / 'brain'
         if brain_dir.exists():
-            for brain_file in brain_dir.glob('*.json'):
-                atom = self.atomize_file('brain', brain_file)
-                if atom:
-                    atoms.append(atom)
-                    sources_checked += 1
+            for pattern in extensions:
+                for file in brain_dir.glob(pattern):
+                    atom = self.atomize_file('brain', file)
+                    if atom:
+                        atoms.append(atom)
+                        sources_checked += 1
 
-        # Source 2: Deployment docs
+        # Source 2: ALL Deployment files (recursive)
         if self.deployment.exists():
-            for doc in self.deployment.glob('*.md'):
-                atom = self.atomize_file('deployment_docs', doc)
-                if atom:
-                    atoms.append(atom)
-                    sources_checked += 1
+            for pattern in extensions:
+                for file in self.deployment.rglob(pattern):
+                    # Skip certain directories
+                    if any(skip in str(file) for skip in ['.git', 'node_modules', '__pycache__', '.venv']):
+                        continue
 
-        # Source 3: Python files
-        if self.deployment.exists():
-            for py_file in self.deployment.glob('*.py'):
-                atom = self.atomize_file('deployment_code', py_file)
-                if atom:
-                    atoms.append(atom)
-                    sources_checked += 1
+                    atom = self.atomize_file('deployment', file)
+                    if atom:
+                        atoms.append(atom)
+                        sources_checked += 1
 
-        # Source 4: Session summaries
+        # Source 3: Session summaries
         summaries = self.consciousness / 'session_summaries'
         if summaries.exists():
-            for summary in summaries.glob('*.md'):
-                atom = self.atomize_file('session_summary', summary)
-                if atom:
-                    atoms.append(atom)
-                    sources_checked += 1
+            for pattern in extensions:
+                for file in summaries.glob(pattern):
+                    atom = self.atomize_file('session_summary', file)
+                    if atom:
+                        atoms.append(atom)
+                        sources_checked += 1
+
+        # Source 4: Trinity files
+        trinity_dir = self.home / '.trinity'
+        if trinity_dir.exists():
+            for pattern in extensions:
+                for file in trinity_dir.rglob(pattern):
+                    if any(skip in str(file) for skip in ['.git', 'node_modules', '__pycache__']):
+                        continue
+
+                    atom = self.atomize_file('trinity', file)
+                    if atom:
+                        atoms.append(atom)
+                        sources_checked += 1
 
         print(f"📊 Raked {len(atoms)} atoms from {sources_checked} sources")
         print()
