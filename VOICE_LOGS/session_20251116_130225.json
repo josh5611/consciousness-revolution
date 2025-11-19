@@ -33578,16 +33578,100 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T10:07:50.733081",
+      "type": "stt",
+      "data": {
+        "text": "i upgraded github",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:07:53.680219",
+      "type": "stt",
+      "data": {
+        "text": "enterprise",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:07:57.898087",
+      "type": "stt",
+      "data": {
+        "text": "i made us a team",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:08:08.354402",
+      "type": "stt",
+      "data": {
+        "text": "we need to max",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:08:15.921886",
+      "type": "stt",
+      "data": {
+        "text": "get have claude",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:08:15.954852",
+      "type": "tts",
+      "data": {
+        "text": "Yes Commander?",
+        "chars": 14,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:08:21.015921",
+      "type": "error",
+      "data": {
+        "error_type": "stt",
+        "message": "Could not understand speech",
+        "details": null
+      }
+    },
+    {
+      "timestamp": "2025-11-19T10:08:21.046647",
+      "type": "tts",
+      "data": {
+        "text": "I didn't hear a command. Try again.",
+        "chars": 35,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
-    "tts_events": 113,
-    "stt_events": 2590,
+    "tts_events": 115,
+    "stt_events": 2595,
     "commands_processed": 39,
-    "errors": 399,
-    "total_chars_spoken": 7430,
-    "total_chars_heard": 86536,
+    "errors": 400,
+    "total_chars_spoken": 7479,
+    "total_chars_heard": 86608,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T09:54:20.143445"
+  "last_updated": "2025-11-19T10:08:21.046660"
 }
