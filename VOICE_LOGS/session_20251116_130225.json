@@ -45724,16 +45724,243 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-20T00:03:05.379271",
+      "type": "stt",
+      "data": {
+        "text": "next steps",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:04:03.428215",
+      "type": "stt",
+      "data": {
+        "text": "can i use r3",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:04:06.645431",
+      "type": "stt",
+      "data": {
+        "text": "find my powershell",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:04:26.739438",
+      "type": "stt",
+      "data": {
+        "text": "we we have different responsibilities",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:04:30.391789",
+      "type": "stt",
+      "data": {
+        "text": "back and forth",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:04:53.466101",
+      "type": "stt",
+      "data": {
+        "text": "will you send communications through the sink",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:00.867155",
+      "type": "stt",
+      "data": {
+        "text": "how about our ideas on how to use r1",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:05.305687",
+      "type": "stt",
+      "data": {
+        "text": "for communication",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:14.586878",
+      "type": "stt",
+      "data": {
+        "text": "i think",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:37.795671",
+      "type": "stt",
+      "data": {
+        "text": "and then we're going to give it",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:42.424784",
+      "type": "stt",
+      "data": {
+        "text": "claude to read",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:42.470284",
+      "type": "tts",
+      "data": {
+        "text": "Yes Commander?",
+        "chars": 14,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:48.632193",
+      "type": "stt",
+      "data": {
+        "text": "be able to type into claude's window impressive button",
+        "chars": 54,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:48.665318",
+      "type": "command",
+      "data": {
+        "command": "be able to type into claude's window impressive button",
+        "response": "processing",
+        "processing_time": null
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:48.704577",
+      "type": "tts",
+      "data": {
+        "text": "Command received: be able to type into claude's window impressive button. I'm still learning new commands. Try asking about status, deploy, payment, cloud, or cockpit.",
+        "chars": 167,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:05:57.825792",
+      "type": "stt",
+      "data": {
+        "text": "can you open r1",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:06:16.977105",
+      "type": "stt",
+      "data": {
+        "text": "i think we're going to have to finish this later i'm getting too tired",
+        "chars": 70,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:06:23.917176",
+      "type": "stt",
+      "data": {
+        "text": "i'm down to destroyer one core process",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:06:37.057177",
+      "type": "stt",
+      "data": {
+        "text": "sizzle fizzle fizz",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:06:44.099378",
+      "type": "stt",
+      "data": {
+        "text": "r2-d2 out",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-20T00:07:46.480367",
+      "type": "stt",
+      "data": {
+        "text": "change the",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
-    "tts_events": 123,
-    "stt_events": 3681,
-    "commands_processed": 39,
+    "tts_events": 125,
+    "stt_events": 3699,
+    "commands_processed": 40,
     "errors": 404,
-    "total_chars_spoken": 7675,
-    "total_chars_heard": 117488,
+    "total_chars_spoken": 7856,
+    "total_chars_heard": 117943,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-20T00:02:37.967849"
+  "last_updated": "2025-11-20T00:07:46.480381"
 }
