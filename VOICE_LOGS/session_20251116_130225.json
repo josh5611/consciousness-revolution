@@ -42875,16 +42875,148 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:48:18.958630",
+      "type": "stt",
+      "data": {
+        "text": "what windows",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:49:23.563661",
+      "type": "stt",
+      "data": {
+        "text": "can i",
+        "chars": 5,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:49:31.556958",
+      "type": "stt",
+      "data": {
+        "text": "or else i'm just going to go if you don't",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:49:57.651669",
+      "type": "stt",
+      "data": {
+        "text": "when you're getting grumpy",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:50:12.715868",
+      "type": "stt",
+      "data": {
+        "text": "just send a note to the sink",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:50:23.735862",
+      "type": "stt",
+      "data": {
+        "text": "code he's having problems",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:50:29.118164",
+      "type": "stt",
+      "data": {
+        "text": "to initiate the autonomous screen sharing",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:50:56.651994",
+      "type": "stt",
+      "data": {
+        "text": "send this to the sink file",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:51:09.586441",
+      "type": "stt",
+      "data": {
+        "text": "the first answer turns off the microphone the second interactions",
+        "chars": 65,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:51:47.844455",
+      "type": "stt",
+      "data": {
+        "text": "okay go ahead and check the sink file",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:52:12.044634",
+      "type": "stt",
+      "data": {
+        "text": "maggie and josh",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:52:20.796075",
+      "type": "stt",
+      "data": {
+        "text": "a drunken data for their a",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3422,
+    "stt_events": 3434,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 110349,
+    "total_chars_heard": 110696,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:47:00.310134"
+  "last_updated": "2025-11-19T22:52:20.796094"
 }
