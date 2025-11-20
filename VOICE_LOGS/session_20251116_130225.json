@@ -42677,16 +42677,214 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:42:39.729993",
+      "type": "stt",
+      "data": {
+        "text": "okay so",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:42:46.742540",
+      "type": "stt",
+      "data": {
+        "text": "i want you to monitor results and then i want you to prove to me",
+        "chars": 64,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:42:52.122129",
+      "type": "stt",
+      "data": {
+        "text": "so go down",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:42:56.004115",
+      "type": "stt",
+      "data": {
+        "text": "rochelle and then",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:43:01.238465",
+      "type": "stt",
+      "data": {
+        "text": "restart up",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:43:03.845019",
+      "type": "stt",
+      "data": {
+        "text": "control",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:43:10.278338",
+      "type": "stt",
+      "data": {
+        "text": "or remote control start into his computer",
+        "chars": 41,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:43:19.410358",
+      "type": "stt",
+      "data": {
+        "text": "other devices",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:44:08.610812",
+      "type": "stt",
+      "data": {
+        "text": "i need your device",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:44:17.884749",
+      "type": "stt",
+      "data": {
+        "text": "do i need to do the sink",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:44:52.703138",
+      "type": "stt",
+      "data": {
+        "text": "i need the iga",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:45:06.129140",
+      "type": "stt",
+      "data": {
+        "text": "r",
+        "chars": 1,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:45:08.992156",
+      "type": "stt",
+      "data": {
+        "text": "2",
+        "chars": 1,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:45:23.136327",
+      "type": "stt",
+      "data": {
+        "text": "will be updated in the name of the device ad",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:45:49.691558",
+      "type": "stt",
+      "data": {
+        "text": "52 or 56 character strings",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:46:00.791637",
+      "type": "stt",
+      "data": {
+        "text": "turn on vacation",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:46:54.039028",
+      "type": "stt",
+      "data": {
+        "text": "what's this",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:47:00.310124",
+      "type": "stt",
+      "data": {
+        "text": "hey i need that number put into the ai it is",
+        "chars": 44,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3404,
+    "stt_events": 3422,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 109981,
+    "total_chars_heard": 110349,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:42:12.413983"
+  "last_updated": "2025-11-19T22:47:00.310134"
 }
