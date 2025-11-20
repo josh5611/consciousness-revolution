@@ -41735,16 +41735,269 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:30.935385",
+      "type": "stt",
+      "data": {
+        "text": "good for all of us to leave our",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:34.325555",
+      "type": "stt",
+      "data": {
+        "text": "cooking autonomously",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:38.895425",
+      "type": "stt",
+      "data": {
+        "text": "computer",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:44.945296",
+      "type": "stt",
+      "data": {
+        "text": "building computer ii onboarding cock",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:52.786576",
+      "type": "stt",
+      "data": {
+        "text": "did you see those numbers before",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:22:56.103304",
+      "type": "stt",
+      "data": {
+        "text": "i'm sure you're at trinity activ",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:23:00.657482",
+      "type": "stt",
+      "data": {
+        "text": "it looks like you do",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:23:06.750048",
+      "type": "stt",
+      "data": {
+        "text": "can you do more cool shit like that computer thing",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:23:25.183330",
+      "type": "stt",
+      "data": {
+        "text": "what is it doing over there too",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:23:35.569297",
+      "type": "stt",
+      "data": {
+        "text": "automatically fires all",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:23:56.795398",
+      "type": "stt",
+      "data": {
+        "text": "okay i'm going to show you real quick how to fire up a powershell can you can you",
+        "chars": 81,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:24:18.255388",
+      "type": "stt",
+      "data": {
+        "text": "a u d e",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:24:42.206640",
+      "type": "stt",
+      "data": {
+        "text": "how do you spell danger",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:25:09.725469",
+      "type": "stt",
+      "data": {
+        "text": "and then hyphen",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:25:24.885489",
+      "type": "stt",
+      "data": {
+        "text": "i've been the last couple days i've been typing",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:25:34.441149",
+      "type": "stt",
+      "data": {
+        "text": "windows are",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:25:56.105496",
+      "type": "stt",
+      "data": {
+        "text": "i already had it up there",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:16.652561",
+      "type": "stt",
+      "data": {
+        "text": "seriously",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:27.426707",
+      "type": "stt",
+      "data": {
+        "text": "oh my gosh it",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:31.670779",
+      "type": "stt",
+      "data": {
+        "text": "okay we're going to boot down",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:36.457698",
+      "type": "stt",
+      "data": {
+        "text": "assume boot down protocol",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:46.017835",
+      "type": "stt",
+      "data": {
+        "text": "you can try to finish that cyclotron stuff before we lose wi-fi",
+        "chars": 63,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:26:53.595420",
+      "type": "stt",
+      "data": {
+        "text": "there's some kind of important keep doing them if they're important",
+        "chars": 67,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 121,
-    "stt_events": 3321,
+    "stt_events": 3344,
     "commands_processed": 39,
     "errors": 403,
     "total_chars_spoken": 7626,
-    "total_chars_heard": 107543,
+    "total_chars_heard": 108241,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:22:06.365382"
+  "last_updated": "2025-11-19T22:26:53.595432"
 }
