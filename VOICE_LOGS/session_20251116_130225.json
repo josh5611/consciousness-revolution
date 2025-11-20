@@ -33955,16 +33955,313 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T19:37:19.937272",
+      "type": "stt",
+      "data": {
+        "text": "i'm working in performing and checking the analytics and tuning it in",
+        "chars": 69,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:37:26.625372",
+      "type": "stt",
+      "data": {
+        "text": "so nobody's ever ever been able to get a project this big off the ground because",
+        "chars": 80,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:37:35.404687",
+      "type": "stt",
+      "data": {
+        "text": "so we got to get you to understand the like framework of the",
+        "chars": 60,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:37:56.737856",
+      "type": "stt",
+      "data": {
+        "text": "piece of code in this one",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:01.345691",
+      "type": "stt",
+      "data": {
+        "text": "and here's the bugs",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:07.189932",
+      "type": "stt",
+      "data": {
+        "text": "so you can go in here",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:28.836120",
+      "type": "stt",
+      "data": {
+        "text": "it's a lot of work",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:42.584804",
+      "type": "stt",
+      "data": {
+        "text": "and go over here to",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:46.846208",
+      "type": "stt",
+      "data": {
+        "text": "okay we need to establish",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:38:51.765416",
+      "type": "stt",
+      "data": {
+        "text": "they've got to know the system",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:03.657574",
+      "type": "stt",
+      "data": {
+        "text": "we need to get a central command center where we can",
+        "chars": 52,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:08.805588",
+      "type": "stt",
+      "data": {
+        "text": "do you know who is on here i'm sure it's probably already",
+        "chars": 57,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:14.017197",
+      "type": "stt",
+      "data": {
+        "text": "we got to all start figuring out how to use it",
+        "chars": 46,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:20.575710",
+      "type": "stt",
+      "data": {
+        "text": "odb's house right now",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:24.220724",
+      "type": "stt",
+      "data": {
+        "text": "computers are side by",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:29.246580",
+      "type": "stt",
+      "data": {
+        "text": "play",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:33.547999",
+      "type": "stt",
+      "data": {
+        "text": "michelle bader beta",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:37.315950",
+      "type": "stt",
+      "data": {
+        "text": "like what should we check now",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:42.814975",
+      "type": "stt",
+      "data": {
+        "text": "he like cloned",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:47.135763",
+      "type": "stt",
+      "data": {
+        "text": "offshoot type of scenario",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:49.955006",
+      "type": "stt",
+      "data": {
+        "text": "suppository",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:39:56.937135",
+      "type": "stt",
+      "data": {
+        "text": "we need to do like a team reassessment because maggie",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:40:03.675593",
+      "type": "stt",
+      "data": {
+        "text": "also lost kind of roaming around without direction",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:40:15.926083",
+      "type": "stt",
+      "data": {
+        "text": "i keep forgetting how to get to",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:40:21.954298",
+      "type": "stt",
+      "data": {
+        "text": "location but the other one can i talk to your ai",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:40:27.620245",
+      "type": "stt",
+      "data": {
+        "text": "i want to get to that",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T19:40:41.701553",
+      "type": "stt",
+      "data": {
+        "text": "here we",
+        "chars": 7,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2619,
+    "stt_events": 2646,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 87260,
+    "total_chars_heard": 88135,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T10:37:57.776099"
+  "last_updated": "2025-11-19T19:40:41.701565"
 }
