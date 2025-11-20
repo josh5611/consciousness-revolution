@@ -38362,16 +38362,126 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T21:11:36.771331",
+      "type": "stt",
+      "data": {
+        "text": "there's a folder",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:11:43.192327",
+      "type": "stt",
+      "data": {
+        "text": "who created if it doesn't exist the title character blah blah blah",
+        "chars": 66,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:11:58.128118",
+      "type": "stt",
+      "data": {
+        "text": "do you have any cords over here maybe i can plug in my phone",
+        "chars": 60,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:12:07.006394",
+      "type": "stt",
+      "data": {
+        "text": "is it okay to unplug",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:12:12.094338",
+      "type": "stt",
+      "data": {
+        "text": "it's actually your other phone",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:12:41.560395",
+      "type": "stt",
+      "data": {
+        "text": "all this old school apple",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:12:47.826521",
+      "type": "stt",
+      "data": {
+        "text": "does lightning motherfuker lightning",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:12:53.136357",
+      "type": "stt",
+      "data": {
+        "text": "no shit right",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:13:01.752811",
+      "type": "stt",
+      "data": {
+        "text": "fucking yeah like",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T21:13:06.396798",
+      "type": "stt",
+      "data": {
+        "text": "oh shit fucking connector ever",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 119,
-    "stt_events": 3017,
+    "stt_events": 3027,
     "commands_processed": 39,
     "errors": 402,
     "total_chars_spoken": 7577,
-    "total_chars_heard": 98407,
+    "total_chars_heard": 98720,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T21:11:31.953622"
+  "last_updated": "2025-11-19T21:13:06.396818"
 }
