@@ -43491,16 +43491,269 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:02:46.413785",
+      "type": "stt",
+      "data": {
+        "text": "do you want cream or anything",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:02:57.783730",
+      "type": "stt",
+      "data": {
+        "text": "it didn't do anything",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:03:11.727880",
+      "type": "stt",
+      "data": {
+        "text": "do it better next time",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:03:31.365915",
+      "type": "stt",
+      "data": {
+        "text": "it's probably slightly different",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:03:35.354275",
+      "type": "stt",
+      "data": {
+        "text": "oh it snapped out of it",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:03:41.282194",
+      "type": "stt",
+      "data": {
+        "text": "oh armory crate controls all your lights",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:04:13.462470",
+      "type": "stt",
+      "data": {
+        "text": "turn your bluetooth on",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:04:42.518738",
+      "type": "stt",
+      "data": {
+        "text": "what should i do",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:04:46.946752",
+      "type": "stt",
+      "data": {
+        "text": "is your bluetooth on",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:05:24.576280",
+      "type": "stt",
+      "data": {
+        "text": "okay so let's try to complete some cool",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:05:28.026056",
+      "type": "stt",
+      "data": {
+        "text": "combination of tasks",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:05:37.887157",
+      "type": "stt",
+      "data": {
+        "text": "and then using playwright to wake you up",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:05:46.585604",
+      "type": "stt",
+      "data": {
+        "text": "or think of some other cool autonomous things",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:05:52.268389",
+      "type": "stt",
+      "data": {
+        "text": "to get a telephone going between the computers back and forth",
+        "chars": 61,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:10.125367",
+      "type": "stt",
+      "data": {
+        "text": "it's kind of scary thinking about having r1 send communications",
+        "chars": 63,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:21.378035",
+      "type": "stt",
+      "data": {
+        "text": "hilarious part is",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:29.639536",
+      "type": "stt",
+      "data": {
+        "text": "oh god we need him to think more and then he's going to think more and talk more",
+        "chars": 80,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:32.522673",
+      "type": "stt",
+      "data": {
+        "text": "deep seek",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:44.928350",
+      "type": "stt",
+      "data": {
+        "text": "are full autonomous system",
+        "chars": 26,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:55.538385",
+      "type": "stt",
+      "data": {
+        "text": "yes let's download",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:06:59.503791",
+      "type": "stt",
+      "data": {
+        "text": "and add it to our",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:12.185966",
+      "type": "stt",
+      "data": {
+        "text": "are whole",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:07:21.143928",
+      "type": "stt",
+      "data": {
+        "text": "justin",
+        "chars": 6,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3478,
+    "stt_events": 3501,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 112046,
+    "total_chars_heard": 112721,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:02:20.721537"
+  "last_updated": "2025-11-19T23:07:21.143940"
 }
