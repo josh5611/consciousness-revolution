@@ -35352,16 +35352,170 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T20:07:39.281033",
+      "type": "stt",
+      "data": {
+        "text": "saving it all back to github would be fine though",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:07:46.685795",
+      "type": "stt",
+      "data": {
+        "text": "we're talking before",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:07:57.650011",
+      "type": "stt",
+      "data": {
+        "text": "okay here's a good question",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:08:02.807889",
+      "type": "stt",
+      "data": {
+        "text": "how come dropbox would be any better",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:08:10.027963",
+      "type": "stt",
+      "data": {
+        "text": "can we level out both these computers all the computers just through github",
+        "chars": 75,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:08:34.174497",
+      "type": "stt",
+      "data": {
+        "text": "i'm in over here",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:08:41.849494",
+      "type": "stt",
+      "data": {
+        "text": "bring me to",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:08:47.340539",
+      "type": "stt",
+      "data": {
+        "text": "where's dropbox",
+        "chars": 15,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:09:27.588614",
+      "type": "stt",
+      "data": {
+        "text": "oh you got the app",
+        "chars": 18,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:09:48.815225",
+      "type": "stt",
+      "data": {
+        "text": "can you click recent code",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:09:54.705181",
+      "type": "stt",
+      "data": {
+        "text": "i sent you a code may take a few minutes to arrive",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:10:10.579894",
+      "type": "stt",
+      "data": {
+        "text": "type in type in up there the search",
+        "chars": 35,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:10:24.999726",
+      "type": "stt",
+      "data": {
+        "text": "all male should go to",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:10:35.107513",
+      "type": "stt",
+      "data": {
+        "text": "okay of course",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2746,
+    "stt_events": 2760,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 91206,
+    "total_chars_heard": 91618,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T20:04:58.780351"
+  "last_updated": "2025-11-19T20:10:35.107529"
 }
