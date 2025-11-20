@@ -40657,16 +40657,302 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:02:02.695113",
+      "type": "stt",
+      "data": {
+        "text": "get it running trinity protocol again",
+        "chars": 37,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:02:08.982232",
+      "type": "stt",
+      "data": {
+        "text": "inhabit working autonomously",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:02:54.639499",
+      "type": "stt",
+      "data": {
+        "text": "okay let's see if we can open up a",
+        "chars": 34,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:02:58.054786",
+      "type": "stt",
+      "data": {
+        "text": "turn on derek's computer",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:04.644687",
+      "type": "stt",
+      "data": {
+        "text": "trinity protocol",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:34.234949",
+      "type": "stt",
+      "data": {
+        "text": "will i connect with you with that",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:45.364996",
+      "type": "stt",
+      "data": {
+        "text": "okay so what do we do",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:49.055861",
+      "type": "stt",
+      "data": {
+        "text": "hey we had trinity activ",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:52.614993",
+      "type": "stt",
+      "data": {
+        "text": "we were building",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:03:56.605142",
+      "type": "stt",
+      "data": {
+        "text": "recording system what happened with that",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:01.785147",
+      "type": "stt",
+      "data": {
+        "text": "and then we were exploring capabilities",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:06.867271",
+      "type": "stt",
+      "data": {
+        "text": "were you able to control the other computer",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:11.395037",
+      "type": "stt",
+      "data": {
+        "text": "maybe i'm giving you too many things to do",
+        "chars": 42,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:22.765210",
+      "type": "stt",
+      "data": {
+        "text": "can you set something to check",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:34.995205",
+      "type": "stt",
+      "data": {
+        "text": "if there's any opportunities to make any of this autumn",
+        "chars": 55,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:04:53.595421",
+      "type": "stt",
+      "data": {
+        "text": "okay both ids confirmed ready to connect",
+        "chars": 40,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:03.305186",
+      "type": "stt",
+      "data": {
+        "text": "actually i",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:16.947614",
+      "type": "stt",
+      "data": {
+        "text": "look at that shit dude",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:25.655214",
+      "type": "stt",
+      "data": {
+        "text": "okay he connected to our computer it's open now",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:37.765631",
+      "type": "stt",
+      "data": {
+        "text": "what's request elevation",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:41.779758",
+      "type": "stt",
+      "data": {
+        "text": "yes",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:05:47.869778",
+      "type": "stt",
+      "data": {
+        "text": "can you fucking believe that",
+        "chars": 28,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:06:09.983875",
+      "type": "stt",
+      "data": {
+        "text": "you should activate trinity and see what you guys",
+        "chars": 49,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:06:15.635298",
+      "type": "stt",
+      "data": {
+        "text": "pointless",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:06:28.445171",
+      "type": "stt",
+      "data": {
+        "text": "the possibilities",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:07:02.180118",
+      "type": "stt",
+      "data": {
+        "text": "do we need to leave him with a bunch of files while we're",
+        "chars": 57,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 121,
-    "stt_events": 3223,
+    "stt_events": 3249,
     "commands_processed": 39,
     "errors": 403,
     "total_chars_spoken": 7626,
-    "total_chars_heard": 104400,
+    "total_chars_heard": 105188,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:01:51.476157"
+  "last_updated": "2025-11-19T22:07:02.180132"
 }
