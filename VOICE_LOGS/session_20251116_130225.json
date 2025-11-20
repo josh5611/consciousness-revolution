@@ -41988,16 +41988,254 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:28.501123",
+      "type": "stt",
+      "data": {
+        "text": "take your time i'm going to wait till this is done",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:36.385539",
+      "type": "stt",
+      "data": {
+        "text": "take all the time in the world to finish up the",
+        "chars": 47,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:43.587270",
+      "type": "stt",
+      "data": {
+        "text": "do the commander or derek's computer",
+        "chars": 36,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:43.621449",
+      "type": "tts",
+      "data": {
+        "text": "Yes Commander?",
+        "chars": 14,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:48.257221",
+      "type": "error",
+      "data": {
+        "error_type": "stt",
+        "message": "Could not understand speech",
+        "details": null
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:48.284495",
+      "type": "tts",
+      "data": {
+        "text": "I didn't hear a command. Try again.",
+        "chars": 35,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:27:56.032511",
+      "type": "stt",
+      "data": {
+        "text": "take control of his",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:28:03.517750",
+      "type": "stt",
+      "data": {
+        "text": "through sink",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:28:08.037487",
+      "type": "stt",
+      "data": {
+        "text": "any desk",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:28:54.852014",
+      "type": "stt",
+      "data": {
+        "text": "i want to look through some of his files on his computer",
+        "chars": 56,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:29:03.475833",
+      "type": "stt",
+      "data": {
+        "text": "i want to look through some files",
+        "chars": 33,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:29:10.895881",
+      "type": "stt",
+      "data": {
+        "text": "open heads up",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:07.878273",
+      "type": "stt",
+      "data": {
+        "text": "this computer",
+        "chars": 13,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:14.139142",
+      "type": "stt",
+      "data": {
+        "text": "through any desk",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:17.678352",
+      "type": "stt",
+      "data": {
+        "text": "i think i have to accept it",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:27.316491",
+      "type": "stt",
+      "data": {
+        "text": "okay so we've saved an onboarding file",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:33.575524",
+      "type": "stt",
+      "data": {
+        "text": "enough to give to their ai to where they can download all this and set this all",
+        "chars": 79,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:41.817440",
+      "type": "stt",
+      "data": {
+        "text": "maybe instead of tailored to them we should make",
+        "chars": 48,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:46.975526",
+      "type": "stt",
+      "data": {
+        "text": "as much as possible and then guide them",
+        "chars": 39,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:30:53.647062",
+      "type": "stt",
+      "data": {
+        "text": "go ahead and look over all the work you did on the ps",
+        "chars": 53,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:31:21.776773",
+      "type": "stt",
+      "data": {
+        "text": "open up my autodesk and enter in derek's id",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T22:32:09.710966",
+      "type": "stt",
+      "data": {
+        "text": "okay except",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
-    "tts_events": 121,
-    "stt_events": 3344,
+    "tts_events": 123,
+    "stt_events": 3363,
     "commands_processed": 39,
-    "errors": 403,
-    "total_chars_spoken": 7626,
-    "total_chars_heard": 108241,
+    "errors": 404,
+    "total_chars_spoken": 7675,
+    "total_chars_heard": 108882,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T22:26:53.595432"
+  "last_updated": "2025-11-19T22:32:09.710979"
 }

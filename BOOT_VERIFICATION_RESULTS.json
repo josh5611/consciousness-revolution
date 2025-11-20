@@ -1,0 +1,40 @@
+{
+  "timestamp": "2025-11-19T22:28:41.974456",
+  "checks": {
+    "Cyclotron Daemon": {
+      "status": "WARN",
+      "message": "Python running but no cycle data"
+    },
+    "Knowledge Index": {
+      "status": "PASS",
+      "atoms": 484,
+      "age_min": 2
+    },
+    "Federation Sync": {
+      "status": "PASS",
+      "synced_files": 1
+    },
+    "Syncthing": {
+      "status": "PASS",
+      "port": 8384
+    },
+    "AI Communications": {
+      "status": "WARN",
+      "message": "No messages file"
+    },
+    "Trinity APIs": {
+      "status": "WARN",
+      "message": "Only ['Thinking API'] running"
+    },
+    "Boot Files": {
+      "status": "PASS",
+      "files": 3
+    },
+    "Environment Variables": {
+      "status": "WARN",
+      "message": "Optional missing: NETLIFY_AUTH_TOKEN"
+    }
+  },
+  "overall_status": "GOOD",
+  "critical_failures": []
+}

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-19T22:19:07.141657",
+  "timestamp": "2025-11-19T22:29:01.613325",
   "phases": {
     "1. Structure Audit": {
       "score": 90,
@@ -24,9 +24,9 @@
     "3. Index Health": {
       "score": 100,
       "checks": {
-        "last_updated": "2025-11-19T22:16:55",
-        "age_minutes": 2.2,
-        "total_atoms": 479,
+        "last_updated": "2025-11-19T22:26:56",
+        "age_minutes": 2.1,
+        "total_atoms": 484,
         "atom_types": 6
       },
       "issues": []
@@ -44,7 +44,7 @@
     "5. Performance Metrics": {
       "score": 100,
       "checks": {
-        "index_load_ms": 0.92,
+        "index_load_ms": 1.19,
         "disk_mb": 35.33,
         "file_count": 5
       },
@@ -69,8 +69,8 @@
     "7. Duplication Check": {
       "score": 100,
       "checks": {
-        "total_atoms": 479,
-        "unique_paths": 479,
+        "total_atoms": 484,
+        "unique_paths": 484,
         "duplicates": 0
       },
       "issues": []
@@ -79,14 +79,14 @@
       "score": 100,
       "checks": {
         "type_breakdown": {
-          "html": 47,
-          "md": 148,
-          "json": 128,
-          "py": 101,
+          "html": 48,
+          "md": 149,
+          "json": 129,
+          "py": 103,
           "txt": 48,
           "js": 7
         },
-        "total": 479
+        "total": 484
       },
       "issues": []
     },
@@ -94,9 +94,9 @@
       "score": 70,
       "checks": {
         "first_count": 464,
-        "last_count": 479,
-        "total_growth": 15,
-        "daily_avg": 7.5,
+        "last_count": 484,
+        "total_growth": 20,
+        "daily_avg": 10.0,
         "history_days": 2
       },
       "issues": []
