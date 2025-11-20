@@ -44338,16 +44338,225 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:22:39.541479",
+      "type": "stt",
+      "data": {
+        "text": "the use out of this thing",
+        "chars": 25,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:23:00.946581",
+      "type": "stt",
+      "data": {
+        "text": "take a screenshot of the right",
+        "chars": 30,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:23:08.658438",
+      "type": "stt",
+      "data": {
+        "text": "powershell and let's see what i can do",
+        "chars": 38,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:23:40.036448",
+      "type": "stt",
+      "data": {
+        "text": "dude he's getting a kick out of",
+        "chars": 31,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:24:00.936361",
+      "type": "stt",
+      "data": {
+        "text": "communication pipeline",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:24:39.348064",
+      "type": "stt",
+      "data": {
+        "text": "okay sorry it was eavesdropping yeah let's do that",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:25:06.176512",
+      "type": "stt",
+      "data": {
+        "text": "i'm trying to figure out what systems we would use",
+        "chars": 50,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:25:13.516580",
+      "type": "stt",
+      "data": {
+        "text": "i would like open",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:25:22.236543",
+      "type": "stt",
+      "data": {
+        "text": "the llama",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:25:40.976434",
+      "type": "stt",
+      "data": {
+        "text": "are 4.5.2 no",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:25:57.636521",
+      "type": "stt",
+      "data": {
+        "text": "yes it's being fucking",
+        "chars": 22,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:26:05.558692",
+      "type": "stt",
+      "data": {
+        "text": "autumn",
+        "chars": 6,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:26:34.398759",
+      "type": "stt",
+      "data": {
+        "text": "what were you where did you get the what was the website was that off of ohama",
+        "chars": 78,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:26:41.582841",
+      "type": "stt",
+      "data": {
+        "text": "download r1 off alamo website",
+        "chars": 29,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:26:56.761031",
+      "type": "stt",
+      "data": {
+        "text": "download",
+        "chars": 8,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:07.589032",
+      "type": "stt",
+      "data": {
+        "text": "just go to",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:16.227909",
+      "type": "stt",
+      "data": {
+        "text": "llama.com",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:22.885158",
+      "type": "stt",
+      "data": {
+        "text": "find erewhon",
+        "chars": 12,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:27:38.309338",
+      "type": "stt",
+      "data": {
+        "text": "play deep",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3555,
+    "stt_events": 3574,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 114384,
+    "total_chars_heard": 114851,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:22:35.157492"
+  "last_updated": "2025-11-19T23:27:38.309351"
 }
