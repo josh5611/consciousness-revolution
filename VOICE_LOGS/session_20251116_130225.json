@@ -35286,16 +35286,82 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T20:02:32.874582",
+      "type": "stt",
+      "data": {
+        "text": "lights on",
+        "chars": 9,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:03:00.298844",
+      "type": "stt",
+      "data": {
+        "text": "everybody's",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:03:04.203334",
+      "type": "stt",
+      "data": {
+        "text": "cloning for",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:04:46.150050",
+      "type": "stt",
+      "data": {
+        "text": "we need to check all of the",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:04:53.962069",
+      "type": "stt",
+      "data": {
+        "text": "repository the start here see if there's anything we need to download for this computer",
+        "chars": 87,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T20:04:58.780335",
+      "type": "stt",
+      "data": {
+        "text": "buy the screenshot function see if it works",
+        "chars": 43,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 117,
-    "stt_events": 2740,
+    "stt_events": 2746,
     "commands_processed": 39,
     "errors": 401,
     "total_chars_spoken": 7528,
-    "total_chars_heard": 91018,
+    "total_chars_heard": 91206,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T20:00:20.861359"
+  "last_updated": "2025-11-19T20:04:58.780351"
 }
