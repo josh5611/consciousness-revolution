@@ -45218,16 +45218,214 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-19T23:47:53.125770",
+      "type": "stt",
+      "data": {
+        "text": "can you see eyes r1",
+        "chars": 19,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:47:59.185370",
+      "type": "stt",
+      "data": {
+        "text": "call 3 opus",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:48:22.891545",
+      "type": "stt",
+      "data": {
+        "text": "perfect i downloaded",
+        "chars": 20,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:48:27.137602",
+      "type": "stt",
+      "data": {
+        "text": "set lights",
+        "chars": 10,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:48:49.839835",
+      "type": "stt",
+      "data": {
+        "text": "we're trying to download",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:48:55.655730",
+      "type": "stt",
+      "data": {
+        "text": "will you look at this page i think we're lost",
+        "chars": 45,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:49:17.472322",
+      "type": "stt",
+      "data": {
+        "text": "josh downloaded r",
+        "chars": 17,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:49:33.460256",
+      "type": "stt",
+      "data": {
+        "text": "screenshot capabilities",
+        "chars": 23,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:49:52.116252",
+      "type": "stt",
+      "data": {
+        "text": "please take a screenshot",
+        "chars": 24,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:49:56.450312",
+      "type": "stt",
+      "data": {
+        "text": "python pillow py",
+        "chars": 16,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:49:59.578411",
+      "type": "stt",
+      "data": {
+        "text": "tool",
+        "chars": 4,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:50:09.854448",
+      "type": "stt",
+      "data": {
+        "text": "do you need",
+        "chars": 11,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:50:21.032067",
+      "type": "stt",
+      "data": {
+        "text": "what should we call it what would i normally call it what are your capabilities what are your",
+        "chars": 93,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:50:24.150613",
+      "type": "stt",
+      "data": {
+        "text": "make sure to put that",
+        "chars": 21,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:50:49.984784",
+      "type": "stt",
+      "data": {
+        "text": "yes",
+        "chars": 3,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:50:56.294607",
+      "type": "stt",
+      "data": {
+        "text": "download the deep seek r170",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:51:58.894537",
+      "type": "stt",
+      "data": {
+        "text": "what you doing",
+        "chars": 14,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-19T23:52:13.774207",
+      "type": "stt",
+      "data": {
+        "text": "one dude that was like an r",
+        "chars": 27,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 123,
-    "stt_events": 3635,
+    "stt_events": 3653,
     "commands_processed": 39,
     "errors": 404,
     "total_chars_spoken": 7675,
-    "total_chars_heard": 116270,
+    "total_chars_heard": 116679,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-19T23:47:40.075211"
+  "last_updated": "2025-11-19T23:52:13.774220"
 }
