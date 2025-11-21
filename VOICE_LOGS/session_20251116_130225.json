@@ -47428,16 +47428,38 @@
         "duration": null,
         "success": true
       }
+    },
+    {
+      "timestamp": "2025-11-21T07:43:38.162182",
+      "type": "stt",
+      "data": {
+        "text": "we're going to run the triple trinity i got to get into these other two computers",
+        "chars": 81,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
+    },
+    {
+      "timestamp": "2025-11-21T07:43:42.205821",
+      "type": "stt",
+      "data": {
+        "text": "do you think we need to download",
+        "chars": 32,
+        "confidence": null,
+        "duration": null,
+        "success": true
+      }
     }
   ],
   "statistics": {
     "tts_events": 127,
-    "stt_events": 3829,
+    "stt_events": 3831,
     "commands_processed": 41,
     "errors": 406,
     "total_chars_spoken": 8006,
-    "total_chars_heard": 121873,
+    "total_chars_heard": 121986,
     "avg_response_time": 0
   },
-  "last_updated": "2025-11-21T07:08:31.943060"
+  "last_updated": "2025-11-21T07:43:42.205838"
 }
