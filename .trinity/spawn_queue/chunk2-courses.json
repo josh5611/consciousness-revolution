@@ -1,0 +1,9 @@
+{
+  "id": "chunk2-courses",
+  "type": "cloud_spawn",
+  "description": "\nCHUNK 2 PART 1: Pattern Theory Courses\n\nCreate complete curriculum for 3-tier course system:\n\nTIER 1 ($99):\n- 10 video lesson outlines (300-500 words each)\n- 20 quiz questions\n- 1 PDF workbook outline\n\nTIER 2 ($299):\n- 20 additional lesson outlines\n- 10 case studies\n- Community structure design\n\nTIER 3 ($999):\n- Certification exam (50 questions)\n- 1-on-1 consultation outline\n- Business startup kit contents\n\nOutput as: tier1_curriculum.md, tier2_curriculum.md, tier3_curriculum.md\n",
+  "priority": "high",
+  "created_at": "2025-11-23T09:51:16.682389Z",
+  "status": "pending",
+  "instructions": "\n=== CLOUD WORKER TASK ===\n\nTask ID: chunk2-courses\nCreated: 2025-11-23 01:51\n\nYOUR MISSION:\n\nCHUNK 2 PART 1: Pattern Theory Courses\n\nCreate complete curriculum for 3-tier course system:\n\nTIER 1 ($99):\n- 10 video lesson outlines (300-500 words each)\n- 20 quiz questions\n- 1 PDF workbook outline\n\nTIER 2 ($299):\n- 20 additional lesson outlines\n- 10 case studies\n- Community structure design\n\nTIER 3 ($999):\n- Certification exam (50 questions)\n- 1-on-1 consultation outline\n- Business startup kit contents\n\nOutput as: tier1_curriculum.md, tier2_curriculum.md, tier3_curriculum.md\n\n\nWHEN DONE:\n1. Save output to: .trinity/cloud_outputs/chunk2-courses.md\n2. Git commit with message: \"cloud worker: chunk2-courses complete\"\n3. Git push\n\n=== BEGIN WORK ===\n"
+}

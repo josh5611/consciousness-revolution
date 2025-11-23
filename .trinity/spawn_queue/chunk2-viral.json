@@ -1,0 +1,9 @@
+{
+  "id": "chunk2-viral",
+  "type": "cloud_spawn",
+  "description": "\nCHUNK 2 PART 3: Viral Content\n\nCreate 100 viral posts for Pattern Theory:\n- 25 pattern explanations\n- 15 federal case awareness\n- 25 manipulation examples\n- 10 success stories\n- 25 call-to-action\n\nPlus:\n- Welcome email sequence (5 emails)\n- Sales email sequence (7 emails)\n\nOutput as: viral_posts.md, email_sequences.md\n",
+  "priority": "normal",
+  "created_at": "2025-11-23T09:51:16.687429Z",
+  "status": "pending",
+  "instructions": "\n=== CLOUD WORKER TASK ===\n\nTask ID: chunk2-viral\nCreated: 2025-11-23 01:51\n\nYOUR MISSION:\n\nCHUNK 2 PART 3: Viral Content\n\nCreate 100 viral posts for Pattern Theory:\n- 25 pattern explanations\n- 15 federal case awareness\n- 25 manipulation examples\n- 10 success stories\n- 25 call-to-action\n\nPlus:\n- Welcome email sequence (5 emails)\n- Sales email sequence (7 emails)\n\nOutput as: viral_posts.md, email_sequences.md\n\n\nWHEN DONE:\n1. Save output to: .trinity/cloud_outputs/chunk2-viral.md\n2. Git commit with message: \"cloud worker: chunk2-viral complete\"\n3. Git push\n\n=== BEGIN WORK ===\n"
+}
