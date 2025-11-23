@@ -14,11 +14,13 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from datetime import datetime
 
-# Add paths
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/PATTERN_THEORY_ENGINE")
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/PATTERN_THEORY_ENGINE/core")
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/PATTERN_THEORY_ENGINE/projection")
-sys.path.insert(0, "C:/Users/dwrek/100X_DEPLOYMENT/CONSCIOUSNESS_PLATFORM/backend")
+# Add paths (Railway-compatible)
+import os
+base_path = os.environ.get("PATTERN_ENGINE_PATH", "/app/PATTERN_THEORY_ENGINE")
+sys.path.insert(0, base_path)
+sys.path.insert(0, os.path.join(base_path, "core"))
+sys.path.insert(0, os.path.join(base_path, "projection"))
+sys.path.insert(0, os.path.dirname(__file__))
 
 # Import Pattern Theory Engine
 try:
