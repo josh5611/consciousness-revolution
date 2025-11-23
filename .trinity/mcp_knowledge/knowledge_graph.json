@@ -1,0 +1,13 @@
+{
+  "entities": [],
+  "relations": [],
+  "metadata": {
+    "exported_at": "2025-11-23T17:27:05.042933Z",
+    "exported_by": "MCP_GIT_SYNC.py"
+  },
+  "export_metadata": {
+    "timestamp": "2025-11-23T17:27:05.042933Z",
+    "version": "1.0",
+    "format": "mcp_knowledge_graph"
+  }
+}

@@ -1,0 +1,8 @@
+2025-11-23 09:26:39,369 [INFO] === MCP GIT SYNC STATUS ===
+2025-11-23 09:27:05,041 [INFO] === EXPORT KNOWLEDGE TO GIT ===
+2025-11-23 09:27:05,041 [INFO] Reading MCP knowledge graph...
+2025-11-23 09:27:05,041 [WARNING] MCP integration requires Claude Code environment with MCP memory server
+2025-11-23 09:27:05,041 [WARNING] This script is designed to be called FROM Claude Code sessions
+2025-11-23 09:27:05,043 [INFO] Exported knowledge graph to C:\Users\darri\100X_DEPLOYMENT\.trinity\mcp_knowledge\knowledge_graph.json
+2025-11-23 09:27:05,043 [INFO] Backup created: C:\Users\darri\100X_DEPLOYMENT\.trinity\mcp_knowledge\backups\knowledge_graph_20251123_172705.json
+2025-11-23 09:27:05,043 [INFO] Export complete
