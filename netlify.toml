@@ -1,0 +1,63 @@
+[build]
+  publish = "."
+  functions = ".netlify/functions"
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Prevent access to internal/admin pages
+[[redirects]]
+  from = "/onboard.html"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
+  from = "/TRINITY_NEXUS_DASHBOARD.html"
+  to = "/index.html"
+  status = 301
+
+# Block internal files from public access
+[[headers]]
+  for = "/onboard.html"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/TRINITY_*.html"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+[[headers]]
+  for = "/*.py"
+  [headers.values]
+    X-Robots-Tag = "noindex"
+
+# Stripe webhook endpoint
+[[redirects]]
+  from = "/api/stripe-webhook"
+  to = "/.netlify/functions/stripe-webhook"
+  status = 200
+
+# Payment endpoints
+[[redirects]]
+  from = "/api/create-checkout"
+  to = "/.netlify/functions/create-checkout-session"
+  status = 200
+
+[[redirects]]
+  from = "/api/customer-portal"
+  to = "/.netlify/functions/customer-portal"
+  status = 200
+
+# Ensure all other routes go to index
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
