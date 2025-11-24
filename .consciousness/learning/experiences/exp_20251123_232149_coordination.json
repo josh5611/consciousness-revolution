@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-11-24T07:21:49.218758Z",
+  "event_type": "coordination",
+  "context": {
+    "pc_count": 3,
+    "network": "trinity"
+  },
+  "outcome": "failure",
+  "metadata": {
+    "latency": 52
+  },
+  "learned_from": false
+}
