@@ -4,6 +4,7 @@ echo.
 echo Services:
 echo - Port 6668: Filename search (CYCLOTRON_SEARCH.py)
 echo - Port 6669: Content search (CYCLOTRON_SEARCH_V2.py)
+echo - Port 6670: Semantic search (CYCLOTRON_SEMANTIC_API.py)
 echo - Daemon: File watcher with auto-indexing
 echo.
 cd /d C:\Users\dwrek\100X_DEPLOYMENT
