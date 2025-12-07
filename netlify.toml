@@ -29,10 +29,7 @@
   to = "/NEWS_BIAS_DETECTOR.html"
   status = 200
 
-[[redirects]]
-  from = "/crypto-module.html"
-  to = "/crypto_module.html"
-  status = 200
+# crypto-module.html redirect removed - file already exists at that path
 # ============================================
 
 [[redirects]]
