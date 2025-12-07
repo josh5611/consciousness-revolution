@@ -16,7 +16,25 @@
   to = "/.netlify/functions/:splat"
   status = 200
 
-# Prevent access to internal/admin pages
+# ============================================
+# FIX BROKEN PAGE URLS - Trinity Protocol v4.0
+# ============================================
+[[redirects]]
+  from = "/manipulation-detector.html"
+  to = "/manipulation_detector.html"
+  status = 200
+
+[[redirects]]
+  from = "/news-analysis.html"
+  to = "/NEWS_BIAS_DETECTOR.html"
+  status = 200
+
+[[redirects]]
+  from = "/crypto-module.html"
+  to = "/crypto_module.html"
+  status = 200
+# ============================================
+
 [[redirects]]
   from = "/onboard.html"
   to = "/index.html"
@@ -27,7 +45,6 @@
   to = "/index.html"
   status = 301
 
-# Block internal files from public access
 [[headers]]
   for = "/onboard.html"
   [headers.values]
@@ -43,25 +60,21 @@
   [headers.values]
     X-Robots-Tag = "noindex"
 
-# Stripe webhook endpoint
 [[redirects]]
   from = "/api/webhook"
   to = "/.netlify/functions/webhook"
   status = 200
 
-# Payment endpoints
 [[redirects]]
   from = "/api/create-checkout"
   to = "/.netlify/functions/create-checkout"
   status = 200
 
-# Beta signup endpoint
 [[redirects]]
   from = "/api/save-beta-signup"
   to = "/.netlify/functions/save-beta-signup"
   status = 200
 
-# Ensure all other routes go to index
 [[redirects]]
   from = "/*"
   to = "/index.html"
