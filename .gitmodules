@@ -1,4 +1,0 @@
-[submodule "BACKEND/philosopher-ai"]
-    path = BACKEND/philosopher-ai
-    url = https://github.com/overkor-tek/philosopher-ai-backend.git
-
