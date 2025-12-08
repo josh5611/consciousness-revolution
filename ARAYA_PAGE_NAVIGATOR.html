@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARAYA Page Navigator - Consciousness Revolution</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            text-align: center;
+            opacity: 0.7;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+        input[type="search"] {
+            width: 100%;
+            padding: 18px 25px;
+            border-radius: 30px;
+            border: 2px solid rgba(102, 126, 234, 0.3);
+            background: rgba(0,0,0,0.3);
+            color: #fff;
+            font-size: 18px;
+        }
+        input[type="search"]:focus {
+            outline: none;
+            border-color: rgba(102, 126, 234, 0.8);
+        }
+        input::placeholder { color: rgba(255,255,255,0.4); }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .category-btn {
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.2);
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .category-btn:hover, .category-btn.active {
+            background: rgba(102, 126, 234, 0.3);
+            border-color: #667eea;
+        }
+        .pages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .page-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.1);
+            text-decoration: none;
+            color: #fff;
+            transition: all 0.3s;
+            display: block;
+        }
+        .page-card:hover {
+            transform: translateY(-3px);
+            background: rgba(255,255,255,0.08);
+            border-color: rgba(102, 126, 234, 0.5);
+        }
+        .page-icon {
+            font-size: 32px;
+            margin-bottom: 12px;
+        }
+        .page-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .page-card p {
+            font-size: 13px;
+            opacity: 0.6;
+            line-height: 1.5;
+        }
+        .back-nav {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .back-nav a {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="back-nav">
+            <a href="/100x-work-area.html">Work Area</a>
+            <a href="/consciousness-tools.html">All Tools</a>
+            <a href="/index.html">Home</a>
+        </div>
+
+        <h1>Page Navigator</h1>
+        <p class="subtitle">Find any page or tool quickly</p>
+
+        <div class="search-box">
+            <input type="search" id="search" placeholder="Search pages..." oninput="filterPages()">
+        </div>
+
+        <div class="categories">
+            <button class="category-btn active" onclick="filterCategory('all')">All</button>
+            <button class="category-btn" onclick="filterCategory('detector')">Detectors</button>
+            <button class="category-btn" onclick="filterCategory('analyzer')">Analyzers</button>
+            <button class="category-btn" onclick="filterCategory('tool')">Tools</button>
+            <button class="category-btn" onclick="filterCategory('dashboard')">Dashboards</button>
+        </div>
+
+        <div class="pages-grid" id="pagesGrid">
+            <!-- Detectors -->
+            <a href="/manipulation_detector.html" class="page-card" data-category="detector">
+                <div class="page-icon">🎯</div>
+                <h3>Manipulation Detector</h3>
+                <p>Analyze text for manipulation patterns</p>
+            </a>
+            <a href="/GASLIGHTING_DETECTOR.html" class="page-card" data-category="detector">
+                <div class="page-icon">🔥</div>
+                <h3>Gaslighting Detector</h3>
+                <p>Identify gaslighting tactics</p>
+            </a>
+            <a href="/LOVE_BOMBING_DETECTOR.html" class="page-card" data-category="detector">
+                <div class="page-icon">💕</div>
+                <h3>Love Bombing Detector</h3>
+                <p>Recognize excessive flattery</p>
+            </a>
+            <a href="/GUILT_TRIP_DETECTOR.html" class="page-card" data-category="detector">
+                <div class="page-icon">😔</div>
+                <h3>Guilt Trip Detector</h3>
+                <p>Identify guilt manipulation</p>
+            </a>
+            <a href="/NEWS_BIAS_DETECTOR.html" class="page-card" data-category="detector">
+                <div class="page-icon">📰</div>
+                <h3>News Bias Detector</h3>
+                <p>Detect media bias</p>
+            </a>
+            <!-- Analyzers -->
+            <a href="/CONVERSATION_ANALYZER.html" class="page-card" data-category="analyzer">
+                <div class="page-icon">💬</div>
+                <h3>Conversation Analyzer</h3>
+                <p>Analyze conversation patterns</p>
+            </a>
+            <a href="/EMAIL_ANALYZER.html" class="page-card" data-category="analyzer">
+                <div class="page-icon">📧</div>
+                <h3>Email Analyzer</h3>
+                <p>Analyze email communications</p>
+            </a>
+            <a href="/CONTRACT_ANALYZER.html" class="page-card" data-category="analyzer">
+                <div class="page-icon">📝</div>
+                <h3>Contract Analyzer</h3>
+                <p>Review contracts for issues</p>
+            </a>
+            <!-- Tools -->
+            <a href="/ARAYA_CONSCIOUS_CHAT.html" class="page-card" data-category="tool">
+                <div class="page-icon">🤖</div>
+                <h3>ARAYA Chat</h3>
+                <p>AI-powered consciousness chat</p>
+            </a>
+            <a href="/CONSCIOUSNESS_TRAINER.html" class="page-card" data-category="tool">
+                <div class="page-icon">🧠</div>
+                <h3>Consciousness Trainer</h3>
+                <p>Build pattern recognition skills</p>
+            </a>
+            <a href="/PATTERN_LIBRARY.html" class="page-card" data-category="tool">
+                <div class="page-icon">📚</div>
+                <h3>Pattern Library</h3>
+                <p>Reference of all patterns</p>
+            </a>
+            <a href="/crypto_module.html" class="page-card" data-category="tool">
+                <div class="page-icon">💰</div>
+                <h3>Crypto Oracle</h3>
+                <p>Crypto market analysis</p>
+            </a>
+            <!-- Dashboards -->
+            <a href="/SEVEN_DOMAINS_DASHBOARD.html" class="page-card" data-category="dashboard">
+                <div class="page-icon">🌐</div>
+                <h3>Seven Domains</h3>
+                <p>Life balance framework</p>
+            </a>
+            <a href="/TIMELINE_PROJECTOR.html" class="page-card" data-category="dashboard">
+                <div class="page-icon">⏳</div>
+                <h3>Timeline Projector</h3>
+                <p>Future scenario projection</p>
+            </a>
+            <a href="/DECISION_MATRIX.html" class="page-card" data-category="dashboard">
+                <div class="page-icon">📊</div>
+                <h3>Decision Matrix</h3>
+                <p>Decision-making tool</p>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        function filterPages() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const cards = document.querySelectorAll('.page-card');
+            cards.forEach(card => {
+                const text = card.textContent.toLowerCase();
+                card.style.display = text.includes(search) ? 'block' : 'none';
+            });
+        }
+
+        function filterCategory(category) {
+            document.querySelectorAll('.category-btn').forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            const cards = document.querySelectorAll('.page-card');
+            cards.forEach(card => {
+                if (category === 'all' || card.dataset.category === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>
