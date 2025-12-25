@@ -103,13 +103,13 @@
 
         .tab {
             flex: 1;
-            min-width: 80px;
-            padding: 12px 8px;
+            min-width: 60px;
+            padding: 10px 6px;
             background: var(--card);
             border: none;
             border-radius: 12px;
             color: var(--text-muted);
-            font-size: 0.85em;
+            font-size: 0.75em;
             cursor: pointer;
             transition: all 0.2s;
             text-align: center;
@@ -506,6 +506,9 @@
             <div class="status-pill" id="projectCount">0 projects</div>
             <div class="status-pill" id="todoCount">0 todos</div>
         </div>
+        <div id="currentPathIndicator" style="margin-top:8px; font-size:0.75em; opacity:0.8; word-break:break-all;">
+            Path: Files/iCloud/Red Pill/
+        </div>
     </div>
 
     <div class="tabs">
@@ -513,6 +516,7 @@
         <button class="tab" data-tab="workflow">Workflow</button>
         <button class="tab" data-tab="context">Context</button>
         <button class="tab" data-tab="export">Export</button>
+        <button class="tab" data-tab="settings">Settings</button>
     </div>
 
     <!-- Todos Panel -->
@@ -616,6 +620,78 @@
         </div>
     </div>
 
+    <!-- Settings Panel -->
+    <div class="panel" id="settings-panel">
+        <div class="todo-input-area">
+            <h3 style="margin-bottom:15px">File Path Settings</h3>
+            <p style="color: var(--text-muted); font-size: 0.85em; margin-bottom: 15px;">
+                Configure where Claude should save/read your project files. Use paths like:<br>
+                <code style="background:var(--bg); padding:2px 6px; border-radius:4px;">Files/iCloud/Red Pill/</code>
+            </p>
+
+            <label style="display:block; margin-bottom:5px; color:var(--text-muted); font-size:0.85em;">
+                Default Save Folder:
+            </label>
+            <input type="text" id="defaultFilePath" placeholder="e.g., Files/iCloud/Red Pill/" />
+
+            <label style="display:block; margin-bottom:5px; color:var(--text-muted); font-size:0.85em;">
+                Current Project Path Override (optional):
+            </label>
+            <input type="text" id="projectFilePath" placeholder="Leave empty to use default path" />
+
+            <button class="btn btn-success" style="width:100%" onclick="savePathSettings()">
+                Save Path Settings
+            </button>
+        </div>
+
+        <div class="todo-input-area">
+            <h3 style="margin-bottom:15px">Quick Path Presets</h3>
+            <button class="btn btn-secondary" style="width:100%; margin-bottom:10px" onclick="setPathPreset('Files/iCloud/')">
+                iCloud Root
+            </button>
+            <button class="btn btn-secondary" style="width:100%; margin-bottom:10px" onclick="setPathPreset('Files/iCloud/Red Pill/')">
+                iCloud / Red Pill
+            </button>
+            <button class="btn btn-secondary" style="width:100%; margin-bottom:10px" onclick="setPathPreset('Files/On My iPhone/')">
+                On My iPhone
+            </button>
+            <button class="btn btn-secondary" style="width:100%; margin-bottom:10px" onclick="setPathPreset('Downloads/')">
+                Downloads
+            </button>
+            <button class="btn btn-primary" style="width:100%" onclick="addCustomPreset()">
+                + Add Custom Preset
+            </button>
+        </div>
+
+        <div class="todo-input-area">
+            <h3 style="margin-bottom:15px">Current File Info</h3>
+            <div id="filePathDisplay" class="context-display" style="min-height:80px;">
+                Loading...
+            </div>
+        </div>
+
+        <div class="todo-input-area">
+            <h3 style="margin-bottom:15px">Claude File Commands</h3>
+            <button class="btn btn-success" style="width:100%; margin-bottom:10px" onclick="copySaveToPathPrompt()">
+                Copy "Save to Path" Prompt
+            </button>
+            <button class="btn btn-primary" style="width:100%; margin-bottom:10px" onclick="copyReadFromPathPrompt()">
+                Copy "Read from Path" Prompt
+            </button>
+            <button class="btn btn-warning" style="width:100%; margin-bottom:10px" onclick="copyListFilesPrompt()">
+                Copy "List Files in Folder" Prompt
+            </button>
+            <button class="btn btn-secondary" style="width:100%" onclick="copySyncPrompt()">
+                Copy "Sync All Projects" Prompt
+            </button>
+        </div>
+
+        <div class="todo-input-area">
+            <h3 style="margin-bottom:15px">Saved Path Presets</h3>
+            <div id="customPresetsList"></div>
+        </div>
+    </div>
+
     <!-- New Project Modal -->
     <div class="modal" id="newProjectModal">
         <div class="modal-content">
@@ -644,7 +720,11 @@
             projects: {},
             currentProject: null,
             lastSaved: null,
-            version: '1.0.0'
+            version: '1.1.0',
+            settings: {
+                defaultFilePath: 'Files/iCloud/Red Pill/',
+                customPresets: []
+            }
         };
 
         let selectedPriority = 'normal';
@@ -664,6 +744,18 @@
                 const saved = localStorage.getItem(STORAGE_KEY);
                 if (saved) {
                     data = JSON.parse(saved);
+
+                    // Migrate old data - ensure settings exist
+                    if (!data.settings) {
+                        data.settings = {
+                            defaultFilePath: 'Files/iCloud/Red Pill/',
+                            customPresets: []
+                        };
+                    }
+                    if (!data.settings.customPresets) {
+                        data.settings.customPresets = [];
+                    }
+
                     console.log('Data loaded:', data);
                 }
             } catch (e) {
@@ -747,6 +839,10 @@
             if (tabName === 'context') updateContextDisplay();
             if (tabName === 'workflow') updateWorkflowDisplay();
             if (tabName === 'export') document.getElementById('exportData').value = '';
+            if (tabName === 'settings') {
+                updateFilePathDisplay();
+                updateCustomPresetsList();
+            }
         }
 
         // Update UI
@@ -757,6 +853,16 @@
             updateContextDisplay();
             updateWorkflowDisplay();
             loadProjectNotes();
+            updatePathIndicator();
+        }
+
+        // Update path indicator in header
+        function updatePathIndicator() {
+            const indicator = document.getElementById('currentPathIndicator');
+            if (!indicator) return;
+
+            const path = getFullFilePath() || getFolderPath();
+            indicator.textContent = `Path: ${path}`;
         }
 
         // Update project selector
@@ -1412,13 +1518,36 @@ Please help me continue with: ${activeTodos[0]?.title || 'reviewing the project 
         }
 
         // Auto-generate file save prompt for Claude
+        // Get the full file path for current project
+        function getFullFilePath() {
+            if (!data.currentProject) return '';
+
+            const project = data.projects[data.currentProject];
+            const basePath = project.filePath || data.settings?.defaultFilePath || 'Files/iCloud/';
+            const fileName = project.name.replace(/[^a-z0-9]/gi, '_').toLowerCase() + '_todo.json';
+
+            // Ensure path ends with /
+            const normalizedPath = basePath.endsWith('/') ? basePath : basePath + '/';
+            return normalizedPath + fileName;
+        }
+
+        // Get just the folder path
+        function getFolderPath() {
+            if (!data.currentProject) return data.settings?.defaultFilePath || 'Files/iCloud/';
+
+            const project = data.projects[data.currentProject];
+            const basePath = project.filePath || data.settings?.defaultFilePath || 'Files/iCloud/';
+            return basePath.endsWith('/') ? basePath : basePath + '/';
+        }
+
         function generateFileSavePrompt() {
             if (!data.currentProject) return '';
 
             const project = data.projects[data.currentProject];
-            const fileName = project.name.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+            const fullPath = getFullFilePath();
 
-            return `Save the following project data to a file named "${fileName}_todo.json":
+            return `Save the following project data to this exact path:
+**${fullPath}**
 
 \`\`\`json
 ${JSON.stringify({
@@ -1427,11 +1556,213 @@ ${JSON.stringify({
     todos: project.todos,
     workflow: project.workflow,
     notes: project.notes,
+    filePath: getFolderPath(),
     lastUpdated: new Date().toISOString()
 }, null, 2)}
 \`\`\`
 
-After saving, please confirm and summarize the active todos.`;
+After saving, please confirm the file was saved to: ${fullPath}`;
+        }
+
+        // Generate prompt to read from file path
+        function generateReadFromPathPrompt() {
+            const fullPath = getFullFilePath();
+            if (!fullPath) return 'Please select a project first.';
+
+            return `Read the file at this path and show me its contents:
+**${fullPath}**
+
+After reading, please:
+1. Summarize the active todos
+2. Show the workflow status
+3. Tell me what the next priority task is`;
+        }
+
+        // Generate prompt to list files in folder
+        function generateListFilesPrompt() {
+            const folderPath = getFolderPath();
+
+            return `List all the files in this folder:
+**${folderPath}**
+
+Please show me:
+1. All .json files (these are my todo projects)
+2. Any subfolders
+3. File sizes and modification dates if available`;
+        }
+
+        // Generate prompt to sync all projects
+        function generateSyncPrompt() {
+            const folderPath = data.settings?.defaultFilePath || 'Files/iCloud/';
+            const projectNames = Object.keys(data.projects);
+
+            return `I need to sync my todo projects. Here's my current state:
+
+**Save folder:** ${folderPath}
+**Projects to save:** ${projectNames.length > 0 ? projectNames.join(', ') : 'None yet'}
+
+Please help me:
+1. First, list what's currently in ${folderPath}
+2. Then I'll share which projects to save/update
+
+Current project data:
+\`\`\`json
+${JSON.stringify({
+    projects: data.projects,
+    settings: data.settings,
+    exportedAt: new Date().toISOString()
+}, null, 2)}
+\`\`\``;
+        }
+
+        // Save path settings
+        function savePathSettings() {
+            const defaultPath = document.getElementById('defaultFilePath').value.trim();
+            const projectPath = document.getElementById('projectFilePath').value.trim();
+
+            if (!data.settings) {
+                data.settings = { defaultFilePath: '', customPresets: [] };
+            }
+
+            if (defaultPath) {
+                data.settings.defaultFilePath = defaultPath;
+            }
+
+            if (data.currentProject && projectPath) {
+                data.projects[data.currentProject].filePath = projectPath;
+            } else if (data.currentProject && !projectPath) {
+                delete data.projects[data.currentProject].filePath;
+            }
+
+            saveData();
+            updateFilePathDisplay();
+            showToast('Path settings saved!');
+        }
+
+        // Set path from preset
+        function setPathPreset(path) {
+            document.getElementById('defaultFilePath').value = path;
+            if (!data.settings) {
+                data.settings = { defaultFilePath: '', customPresets: [] };
+            }
+            data.settings.defaultFilePath = path;
+            saveData();
+            updateFilePathDisplay();
+            showToast(`Path set to: ${path}`);
+        }
+
+        // Add custom preset
+        function addCustomPreset() {
+            const path = document.getElementById('defaultFilePath').value.trim();
+            if (!path) {
+                alert('Enter a path first, then click Add Custom Preset');
+                return;
+            }
+
+            if (!data.settings) {
+                data.settings = { defaultFilePath: '', customPresets: [] };
+            }
+            if (!data.settings.customPresets) {
+                data.settings.customPresets = [];
+            }
+
+            if (!data.settings.customPresets.includes(path)) {
+                data.settings.customPresets.push(path);
+                saveData();
+                updateCustomPresetsList();
+                showToast('Preset saved!');
+            } else {
+                showToast('Preset already exists');
+            }
+        }
+
+        // Update custom presets list
+        function updateCustomPresetsList() {
+            const container = document.getElementById('customPresetsList');
+            const presets = data.settings?.customPresets || [];
+
+            if (presets.length === 0) {
+                container.innerHTML = '<p style="color:var(--text-muted); font-size:0.85em;">No custom presets yet</p>';
+                return;
+            }
+
+            container.innerHTML = presets.map((preset, i) => `
+                <div style="display:flex; gap:10px; margin-bottom:8px;">
+                    <button class="btn btn-secondary" style="flex:1; font-size:0.8em; padding:8px;"
+                            onclick="setPathPreset('${preset.replace(/'/g, "\\'")}')">
+                        ${preset}
+                    </button>
+                    <button class="btn btn-danger" style="padding:8px 12px; font-size:0.8em;"
+                            onclick="removePreset(${i})">X</button>
+                </div>
+            `).join('');
+        }
+
+        // Remove preset
+        function removePreset(index) {
+            if (data.settings?.customPresets) {
+                data.settings.customPresets.splice(index, 1);
+                saveData();
+                updateCustomPresetsList();
+                showToast('Preset removed');
+            }
+        }
+
+        // Update file path display
+        function updateFilePathDisplay() {
+            const display = document.getElementById('filePathDisplay');
+            if (!display) return;
+
+            const defaultPath = data.settings?.defaultFilePath || 'Not set';
+            const projectPath = data.currentProject ?
+                (data.projects[data.currentProject]?.filePath || 'Using default') : 'No project selected';
+            const fullPath = getFullFilePath() || 'Select a project';
+
+            display.textContent = `Default Folder: ${defaultPath}
+
+Project Override: ${projectPath}
+
+Full Save Path: ${fullPath}`;
+
+            // Update input fields
+            const defaultInput = document.getElementById('defaultFilePath');
+            const projectInput = document.getElementById('projectFilePath');
+
+            if (defaultInput) {
+                defaultInput.value = data.settings?.defaultFilePath || '';
+            }
+            if (projectInput && data.currentProject) {
+                projectInput.value = data.projects[data.currentProject]?.filePath || '';
+            }
+        }
+
+        // Copy prompts to clipboard
+        function copySaveToPathPrompt() {
+            const prompt = generateFileSavePrompt();
+            if (!prompt || prompt.includes('select a project')) {
+                alert('Please select a project first');
+                return;
+            }
+            copyToClipboard(prompt);
+            showToast('Save prompt copied!');
+        }
+
+        function copyReadFromPathPrompt() {
+            const prompt = generateReadFromPathPrompt();
+            copyToClipboard(prompt);
+            showToast('Read prompt copied!');
+        }
+
+        function copyListFilesPrompt() {
+            const prompt = generateListFilesPrompt();
+            copyToClipboard(prompt);
+            showToast('List files prompt copied!');
+        }
+
+        function copySyncPrompt() {
+            const prompt = generateSyncPrompt();
+            copyToClipboard(prompt);
+            showToast('Sync prompt copied!');
         }
 
         // Copy Claude continuation prompt
